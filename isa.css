@@ -1,0 +1,186 @@
+/*  */
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Playfair Display', serif; /* for header text */
+ }
+ 
+ body{
+    background-color: #FB5607;
+    font-family: 'Poppins', sans-serif; /* for body text */
+ }
+ #targetJumbotron{
+     background-image: url("/assests/portfolio_header_still.png");
+     height: 60vh;
+     background-size: cover;
+     background-position: center;
+     color: #FB5607;
+     border-radius: 0px!important;
+ }
+ .navbar navbar-expand-lg{
+    color: #FB5607;
+    font-family: 'Playfair Display'
+ }
+ .navbar-nav a, a{
+     color: black!important;
+     margin: 0 20px;  
+ }
+ .navbar-toggler{
+     color: black!important;
+     border: none!important; 
+     outline: none!important; 
+ }
+ .navbar-toggler .fa{
+     color: black!important;
+     font-size: 30px;
+ }
+ .nav-link:hover{
+     font-weight: 600;
+     border-bottom: 1px solid black;
+     margin-bottom: -0.5px; 
+ }
+  @media only screen and (max-width:1000px){
+      .navbar{
+          background-color: #FB5607;
+      }
+      .navbar-nav a{
+          background-color: #FB5607;  
+          margin: 0px 5px 0 17px;
+          margin-top: 30px;
+      }
+      .nav-link:hover{
+          border-bottom: none;
+          font-weight: 300;
+      }
+  }
+ 
+ #firstRowOfContent, #secondRowOfContent, #thirdRowOfContent {
+    text-shadow: 0px 2px 4px white;
+    font-family: 'Playfair Display', serif;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0vh;
+    max-width: 100%;
+    width: 100vw;
+  color: black;
+  text-shadow: 0px 2px 4px white;
+  }
+  
+  #firstRowOfContent {
+    height: 60vh;
+  }
+
+  #secondRowOfContent {
+    height: 40vh; 
+  }
+
+  #thirdRowOfContent {
+    height: 120vh;
+  }
+  
+  .one, .two, .three, .four, .five {
+    background:black;
+    font-size: 30px;
+    font-weight: bold;
+    height: 400px;
+    line-height: 200px;
+    margin: .5em;
+    text-align: center;
+    overflow: auto;
+    width: 400px;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .one {
+    background-color: #FFBE0B;
+    background-image: url("/assests/mycellium_still.png");
+  }
+  
+  .two {
+    background-color: #FF006E;
+    background-image: url("/assests/wtr_still.png");
+  }
+  .three {
+    background-color: #8338EC;
+    background-image: url("/assests/wearable_still.png");
+  }
+  
+  .four {
+    background-color: #3A86FF;
+    background-image: url("/assests/textilePresentation_still.png");
+  }
+  .five{
+    background-color: #FFBE0B;
+    width: 100vw;
+    height: 60vh;
+  }
+ .presentation{
+  background:black;
+  font-weight: bold;
+  height: 400px;
+  margin: .5em;
+  width: 700px;
+  border: 2px solid black;
+  }
+#patagonia, #smarttextiles, #textiledesign, #bdc{
+  background-size: cover;
+  background-position: center;
+}
+  #patagonia{
+    background-image: url("/assests/textilePresentation_still.png");
+  }
+  #smarttextiles{
+    background-image: url("/assests/smart_present.png");
+  }
+  #textiledesign{
+    background-image: url("/assests/mood_board.png");
+  }
+  #bdc{
+    background-image: url("/assests/bdc_presentation.png");
+  }
+  #biodesign{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    overflow: auto;
+    color: #FB5607;
+    border-radius: 0px!important;
+}
+#biodesignHidden{
+  height:0px;
+  width: 0px;
+}
+#textileWorkBody{
+  background-color: #FB5607;
+}
+#bioHtml, #bioBody, .bioDivs, #bioImagesAndInfo{
+  background-color: #FFBE0B;
+}
+#bioImagesAndInfo {
+  height: 60vh;
+  text-shadow: 0px 2px 4px white;
+  font-family: 'Playfair Display', serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0vh;
+  max-width: 100%;
+  width: 100vw;
+color: black;
+text-shadow: 0px 2px 4px white;
+}

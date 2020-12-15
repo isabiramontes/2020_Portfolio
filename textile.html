@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html id="textileWorkBody" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet">
+  <title>Isa Biramontes</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- The default layout, resets and and text styling -->
+  <link href="main.css" rel="stylesheet">
+  <link href="isa.css" rel="stylesheet">
+  
+</head>
+
+<body>
+  
+  <!--Nav bar-->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bio.html">Biomaterials and Biodesign</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wtr.html">Waste to Resource</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wearable.html">Wearable Technology</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="textile.html">Textile Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html#textile_info">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- Textile Work Examples -->
+        <div class="container">
+          <article>
+            <div class="row rellax" data-rellax-speed="-4" style="transform: translate3d(0px, 0px, 0px);">
+              <div class="col">
+                <a href="https://docs.google.com/presentation/d/1ZVzw_gc7c84Gw3m7Rx2K7OhT1CQwckqfTMDZLDZt0As/edit?usp=sharing">
+                  <div id="patagonia" class="presentation"></div>
+                </a>
+              </div>
+              <div class="col">
+                <h2> Fundamentals of Textiles </h2>
+                <h3> Final Presentation</h3>
+                <h4>  Fall 2019 Semester <br> Fashion Institute of Technology </h4>
+              </div>
+          </div>
+          <div class="row rellax" data-rellax-speed="-4" style="transform: translate3d(0px, 0px, 0px);">
+              <div class="col">
+                <h2>History of Textile, Trade, & Technology </h2>
+                <h3> Final Presentation</h3>
+                <h4>  Fall 2019 Semester <br> Fashion Institute of Technology </h4>
+              </div>
+                <div class="col">
+                  <a href="https://docs.google.com/presentation/d/1dGmC3LVAtBd8ij2lo3HCN4I3pGoWWiYmH6BckW_bkFU/edit?usp=sharing">
+                  <div id="smarttextiles" class="presentation"></div>
+                  </a>
+                </div>
+            </div>
+            <div class="row rellax" data-rellax-speed="-4" style="transform: translate3d(0px, 0px, 0px);">
+              <div class="col">
+                <a data-toggle="modal" data-target="#designModal">
+                  <div id="textiledesign" class="presentation"></div> 
+                </a>
+              </div>
+              <div class="col">
+                <h2> CAD and Design Fundamentals for Printed Textiles </h3>
+                <h3> Textile Design Projects </h2>
+                <h4>  Fall 2019 Semester <br> Fashion Institute of Technology </h4>
+              </div>
+          </div>
+          </article>
+           <!-- Modal -->
+           <div class="modal fade" id="designModal" tabindex="-1" role="dialog" aria-labelledby="designModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="designModalLabel"> Motifs and Designs</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <!-- Modal page should display different examples-->
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+  
+    <script src="rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="isa.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+  </body>
+
+</html>
